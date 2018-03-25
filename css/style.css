@@ -1,0 +1,80 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: blue;
+  }
+  h1 {
+    text-align: center;
+  }
+  p, h1, h2, ul, li {
+    padding: 0;
+    margin: 0;
+  }
+  
+  .btn-delete, .add-card, .create-column {
+    border: 0;
+    border-radius: 5px;
+    margin: 5px;
+    font-size: 20px;
+  }
+  
+  .btn-delete {
+    background-color: #f1c40f;
+    padding: 5px 10px;
+  }
+  
+  .add-card {
+    background-color: #f39c12;
+    padding: 10px 15px;
+  }
+  
+  .create-column {
+    margin: 10 auto;
+    display: inline-block;
+    padding: 20px;
+  }
+  
+  .jumbotron {
+    width: 100%;
+    height: 100vh;
+    padding: 30px;
+    position: absolute;
+  }
+  
+  .jumbotron .container h1 {
+    color: #FFF;
+  }
+  
+  .jumbotron .container .board {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: row;
+  }
+  
+  .jumbotron .container .board .column {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #FFF;
+    flex: 1;
+  }
+  
+  .jumbotron .container .board .column .column-card-list {
+    padding: 15px;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    padding: 15px;
+  }
+
+  .container {
+      padding: 30px;
+      text-align: center;
+  }
+  
